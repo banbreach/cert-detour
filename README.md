@@ -15,6 +15,12 @@
 > understood compatibility need and only after accepting the risks described
 > below.
 
+> **Feature warning — no smartphone support**
+>
+> Browsing on smartphones is broken.
+
+![Screenshot showing hospitals dot pmjay dot gov dot in accessed via cert-detour](screenshot.png)
+
 ## 1. Correct incident attribution and purpose
 
 The compatibility scenario documented here is associated with **Mozilla
