@@ -1,0 +1,16 @@
+{
+  "name": "Kasm Chrome Desktop (legacy compatibility)",
+  "image": "kasmweb/chrome:x86_64-1.18.0",
+  "overrideCommand": false,
+  "postStartCommand": "bash .devcontainer/set-kasm-password.sh",
+  "portsAttributes": {
+    "6901": {
+      "label": "Kasm Chrome Desktop",
+      "protocol": "https",
+      "onAutoForward": "ignore"
+    }
+  },
+  "runArgs": [
+    "--shm-size=512m"
+  ]
+}
